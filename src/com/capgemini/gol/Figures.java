@@ -4,6 +4,15 @@ import com.capgemini.gol.LifeUI.Figure;
 
 public class Figures {
 
+	/**
+	 * Prints chosen figure on Swing board
+	 * 
+	 * @param c
+	 *            - starting cell. Other Cells coordinates are calculated based
+	 *            on coordinates of c
+	 * @param f
+	 *            - choose figure to paint
+	 */
 	public void printFigure(Cell c, Figure f) {
 		int x = c.getCoords().get(0);
 		int y = c.getCoords().get(1);
